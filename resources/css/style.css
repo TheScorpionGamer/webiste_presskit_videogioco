@@ -1,0 +1,32 @@
+/* BARRA DI NAVIGAZIONE */
+.navigationbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 10px 10px;
+    background-color: lightblue; /*da cambiare colore sfondo*/
+}
+
+/* BOTTONI BARRA DI NAVIGAZIONE */
+.btn {
+    padding: 10px 20px;
+    border: 2px solid #5f1e13; /*da cambiare colore bordo*/
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover { 
+    transform: scale(1.1); 
+}
+/* FINE BARRA DI NAVIGAZIONE */
+
+body{
+    background-color: black;
+}
+
+#tclogo{
+    width: 100%; height: 25%;
+}
