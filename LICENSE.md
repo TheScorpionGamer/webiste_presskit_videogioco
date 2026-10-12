@@ -30,5 +30,5 @@ with the following additional clauses:
    The use of Tech Clickers's visual identity in other projects 
    is not authorized.
 
-Copyright (©) 2026 Torino Roleplay - All Rights Reserved.
+Copyright (©) 2026 General Gaming Studios - All Rights Reserved.
 =======================================================================

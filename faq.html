@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Clicker - FAQ e Contatti</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="tclogo" src="img/techclickerslogo.png" alt="Logo ufficiale di Tech Clicker">        
+        <nav>
+            <ul class="navigationbar">
+                <li class="btn"><a href="index.html">Home</a></li>
+                <li class="btn"><a href="videogame.html">Il Gioco</a></li>
+                <li class="btn"><a href="requirements.html">Requisiti</a></li>
+                <li class="btn"><a href="chisiamo.html">Chi Siamo</a></li>
+                <li class="btn"><a href="faq.html">FAQ & Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Domande Frequenti (FAQ)</h1>
+            
+            <h3>Q: Quando uscirà la versione completa del gioco?</h3>
+            <p><i>R: Stiamo lavorando sodo sulla versione Alpha v1.0. Seguite gli aggiornamenti per scoprire quando rilasceremo la Beta pubblica!</i></p>
+
+            <h3>Q: Posso giocare a Tech Clicker su browser?</h3>
+            <p><i>R: No, il gioco è attualmente disponibile solo per PC.</i></p>
+
+            <h3>Q: Dove trovo il download del gioco?</h3>
+            <p><i>R: Lo trovi su <a href="https://general-gaming-studios.itch.io/tech-clicker" target="_blank" id="itchio-link">Itch.io</a>.</i></p>
+
+            <hr style="border: 0; border-top: 1px solid #333; margin: 30px 0;">
+
+            <h2>Fai una domanda!</h2>
+            <p>Compila il modulo sottostante per fare una domanda, risponderemo non appena possibile.</p>
+            
+            <form id="faq-form">
+                <!-- Input 1: text -->
+                <label for="username">Nome Utente / Nickname:</label>
+                <input type="text" id="username" name="username" required placeholder="Inserisci il tuo nickname">
+
+                <!-- Input 2: email -->
+                <label for="email">Indirizzo Email:</label>
+                <input type="email" id="email" name="email" required placeholder="nome@esempio.it">
+
+                <!-- Input 3: select -->
+                <label for="question">La tua domanda:</label>
+                <input type="text" id="question" name="question" required placeholder="Cosa vorresti sapere?">
+
+                <button type="submit" onClick="window.alert('Il modulo è stato inviato con successo!')">Invia Richiesta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 General Gaming Studios. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
