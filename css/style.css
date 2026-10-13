@@ -110,7 +110,7 @@ nav {
     box-shadow: 0 5px 15px rgba(241, 119, 116, 0.2);
 }
 
-.feature-card h3 {
+.feature-card h2 {
     color: var(--header-text);
     margin-top: 0;
     font-size: 1.2rem;
@@ -130,7 +130,7 @@ nav {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
 }
 
-.quote-section h4 {
+.quote-section h3 {
     color: var(--accent-color);
     font-size: 1.1rem;
     font-weight: normal;
