@@ -256,7 +256,9 @@ input, select, textarea {
   border: 1px solid #444;
   background-color: #0b0c12;
   color: var(--text-main);
+  font-family: inherit;
 }
+
 
 button[type="submit"] {
   background-color: var(--accent-color);
