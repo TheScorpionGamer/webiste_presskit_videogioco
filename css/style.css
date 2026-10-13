@@ -187,6 +187,10 @@ nav {
   text-decoration: none;
 }
 
+#itchio-frame{
+  border: none;
+}
+
 /* CONTENUTI E SEZIONI */
 main {
   max-width: 900px;
