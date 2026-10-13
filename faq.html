@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Clicker - FAQ e Contatti</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header>
@@ -33,7 +33,7 @@
             <h3>Q: Dove trovo il download del gioco?</h3>
             <p><i>R: Lo trovi su <a href="https://general-gaming-studios.itch.io/tech-clicker" target="_blank" id="itchio-link">Itch.io</a>.</i></p>
 
-            <hr style="border: 0; border-top: 1px solid #333; margin: 30px 0;">
+            <hr id="faq-line">
 
             <h2>Fai una domanda!</h2>
             <p>Compila il modulo sottostante per fare una domanda, risponderemo non appena possibile.</p>
@@ -49,7 +49,7 @@
 
                 <!-- Input 3: select -->
                 <label for="question">La tua domanda:</label>
-                <input type="text" id="question" name="question" required placeholder="Cosa vorresti sapere?">
+                <input type="textarea" id="question" name="question" required placeholder="Cosa vorresti sapere?">
 
                 <button type="submit" onClick="window.alert('Il modulo è stato inviato con successo!')">Invia Richiesta</button>
             </form>
